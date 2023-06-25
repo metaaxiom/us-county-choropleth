@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="general-content-container">
-      <div id="header-logo">Population Choropleth</div>
+      <div id="header-logo">US County Choropleth</div>
       <MapOptions />
     </div>
   </header>

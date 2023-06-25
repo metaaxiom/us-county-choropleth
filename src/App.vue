@@ -49,7 +49,7 @@ export default {
     MapSidebar,
   },
   created() {
-    document.title = "Population Choropleth";
+    document.title = "US County Choropleth";
   },
 };
 </script>

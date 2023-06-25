@@ -1,5 +1,7 @@
-# :earth_americas: Population Choropleth
+# US County Choropleth
 
-**Assign colors to counties on a US map, group counties by color, and calculate the populations of each color group.**
+An interactive, movable and zoomable map of all United States counties, each of which can be selected and assigned into color-coded groups that list the population of each county as well as of the total region. The app was built for a client doing statistical research.
 
-The app is built on Vue.js (v3) with Vuex for state management. D3.js is used to generate the interactive map, and the Census API is queried for population data.
+## Tech Stack
+
+The map of US counties and its basic interactivity - panning, zooming, and county selection - was built using the D3 JavaScript library. The user interface surrounding the map - such as the sidebar displaying the statistics or the save and load modals - were made with the help of Vue.js.

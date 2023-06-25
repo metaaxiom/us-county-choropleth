@@ -8,7 +8,6 @@ class OrderedMap {
         this.orderedArr = orderedArr;
         this.sortBy = sortBy;
 
-        // this.sortKeyIndexes = (this.sortBy.key) ? this.buildSortKeyIndexes() : null;
         this.sortingKeyIdxs = {};
     }
 
@@ -28,25 +27,6 @@ class OrderedMap {
             break;
         }
     }
-
-    // sort(sortBy){
-    //     this.orderedArr.sort((itemOne, itemTwo) => {
-    //         let fieldOne = (sortBy.key) ? itemOne[sortBy.key] : itemOne;
-    //         let fieldTwo = (sortBy.key) ? itemTwo[sortBy.key] : itemTwo;
-
-    //         if(fieldOne < fieldTwo) return (sortBy.asc) ? -1 : 1;
-    //         if(fieldOne > fieldTwo) return (sortBy.asc) ? 1 : -1;
-    //         return 0;
-    //     });
-    // }
-
-    // buildSortKeyIndexes(){
-    //     let sortKeyIndexesObj = {};
-    //     this.orderedArr.forEach((item, itemIdx) => {
-    //         sortKeyIndexesObj[item[this.sortBy.key]] = itemIdx;
-    //     });
-    //     return sortKeyIndexesObj;
-    // }
 }
 
 export default OrderedMap;

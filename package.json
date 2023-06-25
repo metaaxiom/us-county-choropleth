@@ -1,5 +1,5 @@
 {
-  "name": "population-choropleth",
+  "name": "us-county-choropleth",
   "version": "0.9.0-alpha",
   "private": true,
   "scripts": {
